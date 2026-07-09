@@ -4,10 +4,10 @@ function CTA() {
   return (
     <section className="py-20 px-4 bg-sunny-cream">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-sunny-yellow mb-6">
+        <h2 className="text-4xl md:text-5xl font-bold text-sunny-green mb-6">
           Ready to Give Your Little Ones the Best?
         </h2>
-        <p className="text-xl text-sunny-cream mb-10 max-w-2xl mx-auto">
+        <p className="text-xl text-sunny-green mb-10 max-w-2xl mx-auto">
           Experience the natural goodness of Sunny Snuggles Shea Butter. Made with love for your family's delicate skin.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
