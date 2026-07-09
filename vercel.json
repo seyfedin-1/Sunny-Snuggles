@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "installCommand": "cd windsurf-project && npm install",
-  "buildCommand": "cd windsurf-project && npm run build",
-  "outputDirectory": "windsurf-project/dist"
+  "version": 2,
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
