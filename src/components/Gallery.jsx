@@ -6,10 +6,10 @@ function Gallery() {
   const images = [
     {
       id: 1,
-      title: 'Ingredients 1',
-      description: 'Natural ingredients for healthy skin',
+      title: 'Featured Image',
+      description: 'Updated hero and gallery image',
       color: 'from-sunny-yellow to-sunny-orange',
-      image: '/ing1.jpg'
+      image: '/gallery-1.jpg'
     },
     {
       id: 2,
@@ -35,16 +35,16 @@ function Gallery() {
   ]
 
   return (
-    <section className="py-20 px-4 bg-sunny-cream">
+    <section className="py-10 px-4 bg-sunny-cream">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-sunny-orange mb-4">Product Gallery</h2>
           <p className="text-xl text-sunny-green max-w-2xl mx-auto">
             Explore Sunny Snuggles from every angle
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-6">
           <div className="relative">
             <div className={`aspect-square rounded-3xl bg-gradient-to-br ${images[selectedImage].color} flex items-center justify-center shadow-2xl overflow-hidden`}>
               {images[selectedImage].image ? (

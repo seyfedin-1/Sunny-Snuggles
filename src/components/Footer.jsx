@@ -2,13 +2,13 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="bg-sunny-cream text-sunny-green py-12 px-4 md:py-16">
+    <footer id="footer" className="bg-sunny-cream text-sunny-green py-12 px-4 md:py-16">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 mb-12">
           <div className="text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold mb-3 text-sunny-yellow">Sunny Snuggles</h2>
             <p className="text-lg md:text-xl text-sunny-green mb-4">100% Natural Children's Shea Butter</p>
-            <p className="text-base md:text-lg text-sunny-yellow mb-2">📞 Call / Text: 0971717166</p>
+            <p className="text-base md:text-lg text-sunny-yellow mb-2">� Telegram: @ET_Buy</p>
             <p className="text-sunny-leaf text-sm">It's bean • good for your skin</p>
           </div>
           

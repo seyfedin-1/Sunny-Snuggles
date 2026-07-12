@@ -34,20 +34,20 @@ function Features() {
   ]
 
   return (
-    <section className="py-20 px-4 bg-sunny-cream">
+    <section className="py-10 px-4 bg-sunny-cream">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-sunny-orange mb-4">Core Benefits</h2>
           <p className="text-xl text-sunny-green max-w-2xl mx-auto">
             Why Sunny Snuggles is perfect for your little ones
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 border-2 border-sunny-yellow text-center"
+              className="bg-white p-6 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 text-center"
             >
               <div className="text-4xl mb-4">{feature.icon}</div>
               <h3 className="text-xl font-semibold text-sunny-green mb-2">{feature.title}</h3>
@@ -56,9 +56,9 @@ function Features() {
           ))}
         </div>
 
-        <div className="bg-sunny-green rounded-3xl p-8 md:p-12">
-          <h3 className="text-2xl font-bold text-sunny-yellow mb-8 text-center">Product Specifications</h3>
-          <div className="grid md:grid-cols-2 gap-6">
+        <div className="bg-sunny-green rounded-3xl p-6 md:p-8">
+          <h3 className="text-2xl font-bold text-sunny-yellow mb-6 text-center">Product Specifications</h3>
+          <div className="grid md:grid-cols-2 gap-4">
             {specifications.map((spec, index) => (
               <div key={index} className="flex flex-col sm:flex-row justify-between items-center bg-sunny-cream p-4 rounded-xl">
                 <span className="text-sunny-green font-medium mb-2 sm:mb-0">{spec.label}</span>
